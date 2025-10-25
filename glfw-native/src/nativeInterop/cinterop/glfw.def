@@ -11,6 +11,9 @@ linkerOpts.macos_arm64 = -framework IOKit -framework CoreGraphics -framework App
 linkerOpts.macos_x64 = -framework IOKit -framework CoreGraphics -framework AppKit
 
 linkerOpts.linux =           -lglfw \
+                             -lm \
+                             -ldl \
+                             -lpthread \
                              -L/usr/lib64 \
                              -L/usr/lib/x86_64-linux-gnu \
                              -L/opt/local/lib \
