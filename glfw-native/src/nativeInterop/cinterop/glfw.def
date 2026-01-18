@@ -30,8 +30,8 @@ linkerOpts.mingw =           -lgdi32
 ---
 
 void* glfwGetCocoaWindow(GLFWwindow* window);
-void* glfwGetX11Display(GLFWwindow* window);
+void* glfwGetX11Display();
 size_t glfwGetX11Window(GLFWwindow* window);
-void* glfwGetWaylandDisplay(GLFWwindow* window);
+void* glfwGetWaylandDisplay();
 void* glfwGetWaylandWindow(GLFWwindow* window);
 void* glfwGetWin32Window(GLFWwindow* window);
